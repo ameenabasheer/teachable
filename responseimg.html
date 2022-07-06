@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery{
+            border:3px solid black;
+            
+            
+            
+            
+        
+        }
+        .gallery:hover{
+            border: 2px solid blue;
+        }
+        .desc{
+            padding: 20px;
+            text-align: center;
+
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .responsive{
+            padding: 5px;
+            float:left ;
+            
+        }
+        @media only screen and(max-width: 700px;){
+
+        .responsive{
+            width: 49.9999% ;
+            margin:6px 0 ;
+        }
+    }
+    
+    @media only screen and(max-width: 500px;){
+        .responsive{
+            width: 100%;
+
+        }
+    }
+    .clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+         
+
+         
+            
+    
+        
+            
+            
+
+        
+    
+
+    </style>
+</head>
+<body>
+    <h2 text align="center"> RESPONSIVE IMAGE GALLERY</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="../abc.jpg">
+            <img src="../abc.jpg" alt="nature" width="300px" height="300px"></a>
+            <div class="desc">add a description of image 1</div>
+
+        </div>
+    </div> <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="../nature.jpg">
+            <img src="../nature.jpg" alt="nature" width="300px" height="300px"></a>
+            <div class="desc">add a description of image 2</div>
+        </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="../img.jpg">
+                <img src="../img.jpg" alt="nature" width="300px" height="300px"></a>
+                <div class="desc">add a description of image 3</div>
+                </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="../bcd.jpg">
+                        <img src="../bcd.jpg" alt="fruit" width="300px" height="300px"></a>
+                        <div class="desc">add a description of image 4</div>
+                        </div>
+                        </div>
+            
+    
+
+    
+
+    
+    
+</body>
+</html>
